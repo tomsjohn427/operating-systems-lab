@@ -6,7 +6,7 @@ void swap(int *a, int *b) {
     *b = temp;
 }
 
-void main() {
+int main() {
     int i, j, p[20], b[20], g[20], w[20], t[20], a[20], n;
     int k = 1, min, btime = 0;
     float avgw = 0, avgt = 0;
